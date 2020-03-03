@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">GeodezHelper</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_settings">Добавить репер</string>
+    <string name="action_sort">Добавить базовую линию</string>
+    <string name="outlined_button_label_enabled">Sort points</string>
+
+
+    <string name="alert_format_text">неверный формат ввода</string>
+    <string name="Title_text_Count_Point_Height">Определение отметки точки</string>
+    <string name="Title_text_Count_Point_Report">Вынос точки</string>
+    <string name="hint_text_Rp_height">Отметка репера,м</string>
+    <string name="hint_text_Report_Rp">Отчет по рейке на репере,мм</string>
+    <string name="hint_text_Report_Point">Отчет по рейке на точке,мм</string>
+    <string name="button_label_enabled_Count">расчет</string>
+    <string name="hint_text_point_height">Отметка точки,м</string>
+    <string name="Result_point_M">Результат,м: </string>
+    <string name="Result_point_MM">Результат,мм: </string>
+
+
+    <string name="Title_StringLane">Расчет параметров точки относительно oси</string>
+    <string name="X_coord">Координата X,м</string>
+    <string name="Y_coord">Координата Y,м</string>
+    <string name="H_coord">Координата H,м</string>
+    <string name="Base_line">Базовая линия</string>
+
+    <string name="Base_Title">Базовая линия(ось)</string>
+    <string name="Point_one_Title">Первая точка</string>
+    <string name="Point_two_Title">Вторая точка</string>
+    <string name="Base_name">Название базовой линии</string>
+    <string name="Save_button">Сохранить</string>
+    <string name="Default_point_name">UnName</string>
+
+
+    <string name="Title_level_reference">Высотный репер</string>
+    <string name="hint_name">Название</string>
+    <string name="hint_level">Отметка</string>
+    <string name="title_activity_second">SecondActivity</string>
+
+
+
+
+    <string name="ic_back">назад</string>
+    <string name="ic_ok">готово</string>
+
+    <string name="button_choose_lr">Добавить</string>
+    <string name="button_choose_bl">Добавить</string>
+    <string name="p_rad">Радиус,м</string>
+    <string name="circle_round_rad">Средний радиус,м</string>
+    <string name="p_gor_length">Длина по горизонтали,м</string>
+    <string name="p_length">Длина,м</string>
+    <string name="p_dev">Смещение,м</string>
+    <string name="p_height">Превышение,м</string>
+    <string name="RP_Title">Точка на окружности</string>
+    <string name="Title_count_round">Расчет усредненного центра круга</string>
+    <string name="Title_center_result">Усредненный центр</string>
+    <string name="Title_center_rads">Расстояния от центра до точек</string>
+    <string name="button_add_point">Добавить точку</string>
+    <string name="button_count_round">Расчет центра</string>
+    <string name="t_v_radius">Усредненный радиус,м</string>
+
+
+    <string name="t_v_first_lev_ref">Начальный высотный репер</string>
+    <string name="but_import_lev_ref">Импорт</string>
+    <string name="but_add_station">Добавить станцию</string>
+    <string name="t_v_second_lev_ref">Конечный высотный репер</string>
+    <string name="but_equalise">Уравнять ход</string>
+
+    <string name="text_hint_station_name">Название станции</string>
+    <string name="text_hint_back_point_name">Название задней точки</string>
+    <string name="text_hint_point_report">Отчет по рейке</string>
+    <string name="but_add_dim">Добавить измерение</string>
+
+    <string name="text_hint_point_name">Название точки</string>
+    <string name="alert_data_empty">Введите данные</string>
+
+    <string name="toast_data_all_invalide">Данные не обновлены</string>
+    <string name="toast_data_update">Данные обновлены</string>
+
+</resources>

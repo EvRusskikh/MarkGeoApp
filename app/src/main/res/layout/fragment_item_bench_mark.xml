@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".datacontext.benchmarkcontext.FragItemBenchMark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
+        android:text="@string/Title_level_reference" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_name">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/fr_it_bm_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:singleLine="true"
+            android:imeOptions="actionNext"/>
+    </com.google.android.material.textfield.TextInputLayout>
+        <TextView
+            android:id="@+id/fr_it_bm_name_alert"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="-8dp"
+            android:layout_gravity="start"
+            android:paddingStart="5dp"
+            android:textSize="12sp"
+            android:textColor="@color/red_color"
+            android:text="@string/alert_format_text" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_level">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/fr_it_bm_elev"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:singleLine="true"
+            android:imeOptions="actionDone"/>
+    </com.google.android.material.textfield.TextInputLayout>
+        <TextView
+            android:id="@+id/fr_it_bm_elev_alert"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="-8dp"
+            android:layout_gravity="start"
+            android:paddingStart="5dp"
+            android:textSize="12sp"
+            android:textColor="@color/red_color"
+            android:text="@string/alert_format_text" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/fr_it_bm_btn_save"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="20dp"
+            android:text="@string/Save_button" />
+    </LinearLayout>
+
+</FrameLayout>

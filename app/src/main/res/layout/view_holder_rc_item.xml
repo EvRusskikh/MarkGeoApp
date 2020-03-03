@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/it_rc_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="@dimen/md_keylines"
+            android:background="@color/white"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textSize="@dimen/article_subheading" />
+        <TextView
+            android:id="@+id/it_rc_rad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginStart="@dimen/md_keylines"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textSize="@dimen/list_body"/>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</LinearLayout>
