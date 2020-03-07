@@ -42,14 +42,14 @@
                 android:id="@+id/c_el_tv_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:gravity="center"
                 android:text="@string/Title_text_Count_Point_Height"
-                android:textSize="18sp" />
+                android:theme="@style/AppTheme.TitleTheme" />
+
             <Spinner
                 android:id="@+id/c_el_spinner_bm_choose"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
+
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/c_el_bn_add_bm_data"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton"
@@ -60,13 +60,13 @@
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/hint_text_Rp_height">
+                android:hint="@string/hint_text_Rp_height"
+                android:theme="@style/AppTheme.TextInputLayout">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/c_el_et_bench_mark_el"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
                     android:imeOptions="actionNext"
                     android:singleLine="true" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -76,22 +76,19 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="start"
-                android:layout_marginTop="-8dp"
-                android:paddingStart="5dp"
                 android:text="@string/alert_format_text"
-                android:textColor="@color/red_color"
-                android:textSize="12sp" />
+                android:theme="@style/AppTheme.InputError" />
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/hint_text_Report_Rp">
+                android:hint="@string/hint_text_Report_Rp"
+                android:theme="@style/AppTheme.TextInputLayout">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/c_el_et_bench_mark_staff"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
                     android:imeOptions="actionNext"
                     android:singleLine="true" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -101,23 +98,20 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="start"
-                android:layout_marginTop="-8dp"
-                android:paddingStart="5dp"
                 android:text="@string/alert_format_text"
-                android:textColor="@color/red_color"
-                android:textSize="12sp" />
+                android:theme="@style/AppTheme.InputError" />
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/c_el_lt_point"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/hint_text_Report_Point">
+                android:hint="@string/hint_text_Report_Point"
+                android:theme="@style/AppTheme.TextInputLayout">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/c_el_et_point"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
                     android:imeOptions="actionDone"
                     android:singleLine="true" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -127,11 +121,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="start"
-                android:layout_marginTop="-8dp"
-                android:paddingStart="5dp"
                 android:text="@string/alert_format_text"
-                android:textColor="@color/red_color"
-                android:textSize="12sp" />
+                android:theme="@style/AppTheme.InputError" />
 
             <androidx.coordinatorlayout.widget.CoordinatorLayout
                 android:layout_width="match_parent"

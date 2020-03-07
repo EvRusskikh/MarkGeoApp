@@ -20,4 +20,26 @@
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.TitleTheme">
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">@dimen/global_margin_md</item>
+        <item name="android:paddingBottom">@dimen/global_margin</item>
+        <item name="android:textSize">@dimen/text_size_md</item>
+    </style>
+
+    <style name="AppTheme.ErrorTheme">
+        <item name="android:textColor">@color/red_color</item>
+        <item name="android:textSize">@dimen/text_size_xs</item>
+    </style>
+
+    <style name="AppTheme.TextInputLayout">
+        <item name="android:layout_marginTop">@dimen/global_margin</item>
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+
+    <style name="AppTheme.InputError" parent="AppTheme.ErrorTheme">
+        <item name="android:layout_marginTop">-8dp</item>
+        <item name="android:paddingStart">5dp</item>
+    </style>
 </resources>

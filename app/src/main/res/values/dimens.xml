@@ -35,4 +35,14 @@
 
     <dimen name="navheader_height">222dp</dimen>
 
+
+
+    <dimen name="global_margin">14dp</dimen>
+
+    <dimen name="global_margin_md">21dp</dimen>
+
+    <dimen name="text_size_md">24sp</dimen>
+
+    <dimen name="text_size_xs">12sp</dimen>
+
 </resources>
